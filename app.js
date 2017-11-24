@@ -3,7 +3,7 @@ angular
   .controller("ToDoController", ToDoController);
 
 function ToDoController() {
-  this.tasks = ['Walk the cat', 'Eat second breakfast', ]
+  this.tasks = []
 
   this.createTask = () => {
     this.tasks.push( this.taskName );
